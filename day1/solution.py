@@ -1,6 +1,7 @@
-# https://adventofcode.com/2021/day/1
+# https://adventofcode.com/2022/day/1
 import os
 from heapq import heappush, nlargest
+
 
 def solution_part1(filename: str) -> int:
     with open(os.path.join(os.path.dirname(__file__), filename)) as file:
